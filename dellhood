@@ -12,8 +12,8 @@ MainSection:NewButton("Yeat", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/CPDd72hT", true))()      --https://pastebin.com/raw/CPDd72hT
 end)
 
-MainSection:NewButton("Flash", "", function()
-    loadstring(game:HttpGet(" ", true))()       
+MainSection:NewButton("Violet Valk Headless Guy", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/G8xnBhA9", true))()       
 end)
 
 MainSection:NewButton("Godmode", "click the god stuff tab then click the first option", function()
