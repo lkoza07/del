@@ -5,16 +5,27 @@ local Main = Window:NewTab("Del Hood")
 local MainSection = Main:NewSection("Del Hood")
 
 MainSection:NewButton("Shazam", "", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/qnRD3ai0", true))()    --https://pastebin.com/raw/qnRD3ai0
+    loadstring(game:HttpGet("https://pastebin.com/raw/qnRD3ai0", true))()    
 end)
 
 MainSection:NewButton("Yeat", "", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/CPDd72hT", true))()      --https://pastebin.com/raw/CPDd72hT
+    loadstring(game:HttpGet("https://pastebin.com/raw/NhR5bs4D", true))()      
 end)
 
 MainSection:NewButton("Violet Valk Headless Guy", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/G8xnBhA9", true))()       
 end)
+
+MainSection:NewButton("Peep the Frog", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/85ux8Zra", true))()       
+end)
+
+MainSection:NewButton("Walter White", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/aRM3TPvC", true))()       
+end)
+
+
+
 
 MainSection:NewButton("Godmode", "click the god stuff tab then click the first option", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
