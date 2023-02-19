@@ -1,0 +1,49 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Scripts", "Synapse")
+
+local Main = Window:NewTab("Del Hood")
+local MainSection = Main:NewSection("Del Hood")
+
+MainSection:NewButton("Shazam", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/qnRD3ai0", true))()    --https://pastebin.com/raw/qnRD3ai0
+end)
+
+MainSection:NewButton("Yeat", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CPDd72hT", true))()      --https://pastebin.com/raw/CPDd72hT
+end)
+
+MainSection:NewButton("Flash", "", function()
+    loadstring(game:HttpGet(" ", true))()       
+end)
+
+MainSection:NewButton("Godmode", "click the god stuff tab then click the first option", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other scripts")
+
+OtherSection:NewButton("", "", function()
+    print(hi)
+end)
+
+
+
+
+
+
+
+
+--close UI
+
+local Toggle = Window:NewTab("Toggle")
+local ToggleSection = Toggle:NewSection("Toggle UI")
+
+
+ToggleSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.V, function()
+	Library:ToggleUI()
+end)
+
